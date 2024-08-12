@@ -1,0 +1,66 @@
+[
+  {
+    "subelement": "furniture#1",
+    "element": "space#2"
+  },
+  {
+    "subelement": "furniture#3",
+    "element": "space#2"
+  },
+  {
+    "subelement": "furniture#4",
+    "element": "space#2"
+  },
+  {
+    "subelement": "furniture#5",
+    "element": "space#2"
+  },
+  {
+    "subelement": "furniture#6",
+    "element": "space#2"
+  },
+  {
+    "subelement": "furniture#7",
+    "element": "space#8"
+  },
+  {
+    "subelement": "furniture#9",
+    "element": "space#8"
+  },
+  {
+    "subelement": "furniture#10",
+    "element": "space#8"
+  },
+  {
+    "subelement": "furniture#11",
+    "element": "space#8"
+  },
+  {
+    "subelement": "furniture#12",
+    "element": "space#13"
+  },
+  {
+    "subelement": "furniture#14",
+    "element": "space#13"
+  },
+  {
+    "subelement": "furniture#15",
+    "element": "space#13"
+  },
+  {
+    "subelement": "furniture#16",
+    "element": "space#13"
+  },
+  {
+    "subelement": "furniture#17",
+    "element": "space#18"
+  },
+  {
+    "subelement": "furniture#19",
+    "element": "space#18"
+  },
+  {
+    "subelement": "furniture#20",
+    "element": "space#21"
+  }
+]

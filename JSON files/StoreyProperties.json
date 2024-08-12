@@ -1,0 +1,18 @@
+[
+    {
+        "storey": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512",
+        "name": "Level 1"
+    },
+    {
+        "storey": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693",
+        "name": "Level 2"
+    },
+    {
+        "storey": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95f6ab3",
+        "name": "T/FDN"
+    },
+    {
+        "storey": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95f770e",
+        "name": "Roof"
+    }
+]

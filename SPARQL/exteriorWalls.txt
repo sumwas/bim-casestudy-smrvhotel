@@ -1,0 +1,37 @@
+PREFIX building: <https://pi.pauwel.be/voc/buildingelement#>
+PREFIX bot: <https://w3id.org/bot#>
+PREFIX props: <http://lbd.arch.rwth-aachen.de/props#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?wall (STRBEFORE(STR(?baseConstraint), "-") AS ?baseConstraintValue)
+      (STRAFTER(STR(?topConstraint), ": ") AS ?topConstraintLabel)
+      (STRBEFORE(STRAFTER(STR(?topConstraint), ": "), "-") AS ?topConstraintValue) ?batid ?fireRating ?facingDirection
+      (STRBEFORE(STR(?smrvExteriorFireSeparationDistance), "^^") AS ?smrvExteriorFireSeparationDistanceValue) 
+      (STRBEFORE(STR(?unconnectedHeight), "^^") AS ?unconnectedHeightValue)
+      (STRBEFORE(STR(?length), "^^") AS ?lengthValue) 
+      (STRBEFORE(STR(?area), "^^") AS ?areaValue) 
+      (STRBEFORE(STR(?baseElevation), "^^") AS ?baseElevationValue)
+      (STRBEFORE(STR(?topElevation), "^^") AS ?topElevationValue)
+WHERE {
+  ?wall a building:Wall ;
+        props:function_property_simple "Exterior" ;
+        props:baseConstraint_property_simple ?baseConstraint ;
+        props:topConstraint_property_simple ?topConstraint ;
+        props:batid_attribute_simple ?batid ;
+        props:fireRating_property_simple ?fireRating ;
+        props:smrvFacingDirection_property_simple ?facingDirection ;
+        props:smrvExteriorFireSeparationDistance_property_simple ?smrvExteriorFireSeparationDistance ;
+        props:unconnectedHeight_property_simple ?unconnectedHeight ;
+        props:length_property_simple ?length ;
+        props:area_property_simple ?area .
+
+  ?baseStorey a bot:Storey ;
+              rdfs:label ?baseConstraint ;
+              props:elevation_property_simple ?baseElevation .
+  
+  BIND(STRAFTER(STR(?topConstraint), ": ") AS ?topConstraintLabel)
+  ?topStorey a bot:Storey ;
+             rdfs:label ?topConstraintLabel ;
+             props:elevation_property_simple ?topElevation .
+}

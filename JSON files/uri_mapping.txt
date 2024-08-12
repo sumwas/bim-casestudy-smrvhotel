@@ -1,0 +1,23 @@
+{
+  "https://example.domain.de/furniture_982f59b0-f2e1-485f-8ce1-c9f6117b7638": "furniture#1",
+  "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d42": "space#2",
+  "https://example.domain.de/furniture_982f59b0-f2e1-485f-8ce1-c9f6117b7639": "furniture#3",
+  "https://example.domain.de/furniture_982f59b0-f2e1-485f-8ce1-c9f6117b763c": "furniture#4",
+  "https://example.domain.de/furniture_982f59b0-f2e1-485f-8ce1-c9f6117b763e": "furniture#5",
+  "https://example.domain.de/furniture_982f59b0-f2e1-485f-8ce1-c9f6117b763f": "furniture#6",
+  "https://example.domain.de/furniture_3ab8ee1d-07ad-41b9-8f24-a55884e7c0d0": "furniture#7",
+  "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d65": "space#8",
+  "https://example.domain.de/furniture_3ab8ee1d-07ad-41b9-8f24-a55884e7c0d1": "furniture#9",
+  "https://example.domain.de/furniture_982f59b0-f2e1-485f-8ce1-c9f6117b73b5": "furniture#10",
+  "https://example.domain.de/furniture_aee6ba2e-4f5c-4db5-be80-30db9483fa5a": "furniture#11",
+  "https://example.domain.de/furniture_3ab8ee1d-07ad-41b9-8f24-a55884e7c10f": "furniture#12",
+  "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d66": "space#13",
+  "https://example.domain.de/furniture_3ab8ee1d-07ad-41b9-8f24-a55884e7c130": "furniture#14",
+  "https://example.domain.de/furniture_982f59b0-f2e1-485f-8ce1-c9f6117b7488": "furniture#15",
+  "https://example.domain.de/furniture_aee6ba2e-4f5c-4db5-be80-30db9483f4e0": "furniture#16",
+  "https://example.domain.de/furniture_aa6e13ea-b5bc-4245-93bf-8b2355840d64": "furniture#17",
+  "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d68": "space#18",
+  "https://example.domain.de/furniture_aa6e13ea-b5bc-4245-93bf-8b2355840d65": "furniture#19",
+  "https://example.domain.de/furniture_aa6e13ea-b5bc-4245-93bf-8b2355840e59": "furniture#20",
+  "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d78": "space#21"
+}

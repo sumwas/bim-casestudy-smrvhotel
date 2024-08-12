@@ -1,0 +1,16 @@
+PREFIX bot: <https://w3id.org/bot#>
+PREFIX props: <http://lbd.arch.rwth-aachen.de/props#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?levelValue (GROUP_CONCAT(DISTINCT ?occupancyClassification; separator=", ") AS ?uniqueOccupancies)
+WHERE {
+  ?space a bot:Space ;
+         props:areaType_property_simple "Building Common Area" ;
+         props:level_property_simple ?level ;
+         props:smrvOccupancyClassification_property_simple ?occupancyClassification ;
+         props:area_property_simple ?area .
+
+  BIND(STRBEFORE(STR(?level), "-") AS ?levelValue)
+}
+GROUP BY ?levelValue

@@ -1,0 +1,26 @@
+PREFIX building: <https://pi.pauwel.be/voc/buildingelement#>
+PREFIX bot: <https://w3id.org/bot#>
+PREFIX props: <http://lbd.arch.rwth-aachen.de/props#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?window (STRBEFORE(STR(?level), "-") AS ?levelValue) ?mark 
+       (STRBEFORE(STR(?height), "^^") AS ?heightValue) 
+       (STRBEFORE(STR(?width), "^^") AS ?widthValue) 
+       ?host
+       (STRBEFORE(STR(?area), "^^") AS ?areaValue) 
+       ?fireRating
+WHERE {
+  ?window a building:Window ;
+          props:level_property_simple ?level ;
+          props:mark_property_simple ?mark ;
+          props:overallHeightIfcWindow_attribute_simple ?height ;
+          props:overallWidthIfcWindow_attribute_simple ?width ;
+          props:hostId_property_simple ?host ;
+          props:area_property_simple ?area .
+  
+  ?wall a building:Wall ;
+        props:batid_attribute_simple ?host ;
+        props:fireRating_property_simple ?fireRating .
+}
+

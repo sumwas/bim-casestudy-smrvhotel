@@ -1,0 +1,19 @@
+PREFIX bot: <https://w3id.org/bot#>
+PREFIX props: <http://lbd.arch.rwth-aachen.de/props#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?storey ?label
+       (STRBEFORE(STR(?elevation), "^^") AS ?elevationValue)
+       (IF(STR(?firstLevel) = ?label, "Grade Plane", "") AS ?Use)
+WHERE {
+  ?storey a bot:Storey ;
+          rdfs:label ?label ;
+          props:elevation_property_simple ?elevation .
+  
+  # Optional: Match the value of smrvFirstStoryLevel_property_simple
+  # with the label of the storey (remove FILTER to get all storeys)
+  OPTIONAL {
+    VALUES (?firstLevel) { ("01-GROUND FLOOR") }  # Add more values here if needed
+    FILTER(STR(?firstLevel) = ?label)
+  }
+}

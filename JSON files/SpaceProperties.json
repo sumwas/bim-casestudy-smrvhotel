@@ -1,0 +1,74 @@
+[
+    {
+        "space": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d42",
+        "name": "A102"
+    },
+    {
+        "space": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d65",
+        "name": "A203"
+    },
+    {
+        "space": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d66",
+        "name": "A202"
+    },
+    {
+        "space": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d68",
+        "name": "A204"
+    },
+    {
+        "space": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d6c",
+        "name": "A201"
+    },
+    {
+        "space": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d75",
+        "name": "A101"
+    },
+    {
+        "space": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d78",
+        "name": "A104"
+    },
+    {
+        "space": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d7f",
+        "name": "A103"
+    },
+    {
+        "space": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067bfe0c9",
+        "name": "B203"
+    },
+    {
+        "space": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067bfe0ca",
+        "name": "B202"
+    },
+    {
+        "space": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067bfe0cc",
+        "name": "B204"
+    },
+    {
+        "space": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067bfe0d0",
+        "name": "B201"
+    },
+    {
+        "space": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067bfe0d9",
+        "name": "B104"
+    },
+    {
+        "space": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067bfe0da",
+        "name": "B101"
+    },
+    {
+        "space": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067bfe0dc",
+        "name": "B103"
+    },
+    {
+        "space": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067bfe323",
+        "name": "B102"
+    },
+    {
+        "space": "https://example.domain.de/space_aa6e13ea-b5bc-4245-93bf-8b23558433cc",
+        "name": "B205"
+    },
+    {
+        "space": "https://example.domain.de/space_aa6e13ea-b5bc-4245-93bf-8b23558433df",
+        "name": "A205"
+    }
+]

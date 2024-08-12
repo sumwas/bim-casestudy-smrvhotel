@@ -1,0 +1,18 @@
+PREFIX bot: <https://w3id.org/bot#>
+PREFIX props: <http://lbd.arch.rwth-aachen.de/props#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?space 
+  (STRBEFORE(STR(?level), "-") AS ?levelValue) ?numberAndName
+  (STRBEFORE(STR(?exit), "^^") AS ?exitValue) 
+  (STRBEFORE(STR(?commonPath), "^^") AS ?commonPathValue) 
+  (STRBEFORE(STR(?smrvCalcOccupantLoad), "^^") AS ?smrvCalcOccupantLoadValue)
+WHERE {
+  ?space a bot:Space ;
+         props:level_property_simple ?level ;
+         props:numberAndName_property_simple ?numberAndName ;
+         props:exitTravel_property_simple ?exit ;
+         props:commonPath_property_simple ?commonPath;
+         props:smrvCalcOccupantLoad_property_simple ?smrvCalcOccupantLoad .
+}

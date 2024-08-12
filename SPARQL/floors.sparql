@@ -1,0 +1,20 @@
+PREFIX building: <https://pi.pauwel.be/voc/buildingelement#>
+PREFIX bot: <https://w3id.org/bot#>
+PREFIX props: <http://lbd.arch.rwth-aachen.de/props#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?floor ?id ?type
+(STRBEFORE(STR(?level), "-") AS ?levelValue) (STRBEFORE(STR(?height), "^^") AS ?heightValue) 
+(STRBEFORE(STR(?area), "^^") AS ?areaValue) 
+WHERE {
+  ?floor a building:Slab-FLOOR ;
+        props:batid_attribute_simple ?id ;
+        props:familyAndType_property_simple ?type ;
+        props:level_property_simple ?level ;
+        props:area_property_simple ?area .
+
+    ?baseStorey a bot:Storey ;
+              rdfs:label ?level ;
+              props:elevation_property_simple ?height .
+}

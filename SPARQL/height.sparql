@@ -1,0 +1,13 @@
+PREFIX building: <https://pi.pauwel.be/voc/buildingelement#>
+PREFIX bot: <https://w3id.org/bot#>
+PREFIX props: <http://lbd.arch.rwth-aachen.de/props#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?building ?constructionType ?occupancyGroup ?sprinklerType
+        WHERE {
+            ?building a bot:Building ;
+                    props:smrvBuildingConstructionType_property_simple ?constructionType ;
+                    props:smrvBuildingOccupancyGroup_property_simple ?occupancyGroup ;
+                    props:smrvSprinklerType_property_simple ?sprinklerType . 
+        }

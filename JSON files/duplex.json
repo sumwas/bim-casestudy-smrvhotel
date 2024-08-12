@@ -1,0 +1,830 @@
+[
+    {
+        "subelement": "https://example.domain.de/furniture_982f59b0-f2e1-485f-8ce1-c9f6117b7638",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d42"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_982f59b0-f2e1-485f-8ce1-c9f6117b7639",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d42"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_982f59b0-f2e1-485f-8ce1-c9f6117b763c",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d42"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_982f59b0-f2e1-485f-8ce1-c9f6117b763e",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d42"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_982f59b0-f2e1-485f-8ce1-c9f6117b763f",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d42"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_3ab8ee1d-07ad-41b9-8f24-a55884e7c0d0",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d65"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_3ab8ee1d-07ad-41b9-8f24-a55884e7c0d1",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d65"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_982f59b0-f2e1-485f-8ce1-c9f6117b73b5",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d65"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_aee6ba2e-4f5c-4db5-be80-30db9483fa5a",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d65"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_3ab8ee1d-07ad-41b9-8f24-a55884e7c10f",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d66"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_3ab8ee1d-07ad-41b9-8f24-a55884e7c130",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d66"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_982f59b0-f2e1-485f-8ce1-c9f6117b7488",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d66"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_aee6ba2e-4f5c-4db5-be80-30db9483f4e0",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d66"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_aa6e13ea-b5bc-4245-93bf-8b2355840d64",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d68"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_aa6e13ea-b5bc-4245-93bf-8b2355840d65",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d68"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_aa6e13ea-b5bc-4245-93bf-8b2355840e59",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d78"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_2c391822-07f8-4a22-86a8-a1e57412d1fa",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d7f"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_2c391822-07f8-4a22-86a8-a1e57412d616",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d7f"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_2c391822-07f8-4a22-86a8-a1e57412d693",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d7f"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_2c391822-07f8-4a22-86a8-a1e57412d74b",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d7f"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_982f59b0-f2e1-485f-8ce1-c9f6117b9d32",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d7f"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_982f59b0-f2e1-485f-8ce1-c9f6117b9d33",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d7f"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_982f59b0-f2e1-485f-8ce1-c9f6117b9d38",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d7f"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_982f59b0-f2e1-485f-8ce1-c9f6117b9d3a",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d7f"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_982f59b0-f2e1-485f-8ce1-c9f6117b9d3b",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d7f"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_982f59b0-f2e1-485f-8ce1-c9f6117b9d3c",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d7f"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_982f59b0-f2e1-485f-8ce1-c9f6117b9d3d",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d7f"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_982f59b0-f2e1-485f-8ce1-c9f6117b9d3e",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d7f"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_982f59b0-f2e1-485f-8ce1-c9f6117b9d3f",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d7f"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_982f59b0-f2e1-485f-8ce1-c9f6117b9d44",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d7f"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_982f59b0-f2e1-485f-8ce1-c9f6117b9d45",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067be1d7f"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_3ab8ee1d-07ad-41b9-8f24-a55884e7c1ae",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067bfe0c9"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_3ab8ee1d-07ad-41b9-8f24-a55884e7c1af",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067bfe0c9"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_982f59b0-f2e1-485f-8ce1-c9f6117b7584",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067bfe0c9"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_aee6ba2e-4f5c-4db5-be80-30db9483f78d",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067bfe0c9"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_3ab8ee1d-07ad-41b9-8f24-a55884e7ce3f",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067bfe0ca"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_3ab8ee1d-07ad-41b9-8f24-a55884e7cf88",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067bfe0ca"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_982f59b0-f2e1-485f-8ce1-c9f6117b7457",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067bfe0ca"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_aee6ba2e-4f5c-4db5-be80-30db9483f515",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067bfe0ca"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_aa6e13ea-b5bc-4245-93bf-8b2355840c33",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067bfe0cc"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_aa6e13ea-b5bc-4245-93bf-8b2355840d02",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067bfe0cc"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_2c391822-07f8-4a22-86a8-a1e57412ca31",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067bfe0dc"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_2c391822-07f8-4a22-86a8-a1e57412d4ca",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067bfe0dc"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_2c391822-07f8-4a22-86a8-a1e57412d518",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067bfe0dc"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_2c391822-07f8-4a22-86a8-a1e57412d5af",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067bfe0dc"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_3ab8ee1d-07ad-41b9-8f24-a55884e7c598",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067bfe0dc"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_3ab8ee1d-07ad-41b9-8f24-a55884e7c631",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067bfe0dc"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_982f59b0-f2e1-485f-8ce1-c9f6117b90eb",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067bfe0dc"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_982f59b0-f2e1-485f-8ce1-c9f6117b9208",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067bfe0dc"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_982f59b0-f2e1-485f-8ce1-c9f6117b941a",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067bfe0dc"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_982f59b0-f2e1-485f-8ce1-c9f6117b9448",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067bfe0dc"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_982f59b0-f2e1-485f-8ce1-c9f6117b9d82",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067bfe0dc"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_982f59b0-f2e1-485f-8ce1-c9f6117b9db0",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067bfe0dc"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_982f59b0-f2e1-485f-8ce1-c9f6117b9dca",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067bfe0dc"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_982f59b0-f2e1-485f-8ce1-c9f6117b9e32",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067bfe0dc"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_982f59b0-f2e1-485f-8ce1-c9f6117b9e33",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067bfe0dc"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_982f59b0-f2e1-485f-8ce1-c9f6117b6925",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067bfe323"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_982f59b0-f2e1-485f-8ce1-c9f6117b6962",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067bfe323"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_982f59b0-f2e1-485f-8ce1-c9f6117b6987",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067bfe323"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_982f59b0-f2e1-485f-8ce1-c9f6117b6af6",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067bfe323"
+    },
+    {
+        "subelement": "https://example.domain.de/furniture_982f59b0-f2e1-485f-8ce1-c9f6117b77da",
+        "element": "https://example.domain.de/space_0b74b3fa-1a92-405e-9ac9-d59067bfe323"
+    },
+    {
+        "subelement": "https://example.domain.de/beam_98d604b7-4c6f-4ae8-b5f3-0187bb53ebc8",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f220",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f378",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f379",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/covering_e586c31c-dfb6-463e-aee7-a2dffc985003",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/covering_e586c31c-dfb6-463e-aee7-a2dffc98500b",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/covering_e586c31c-dfb6-463e-aee7-a2dffc98501e",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/covering_e586c31c-dfb6-463e-aee7-a2dffc985031",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/covering_e586c31c-dfb6-463e-aee7-a2dffc985748",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/door_6b61ce71-1a7a-473c-8f87-4262e0bdb41a",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/door_6b61ce71-1a7a-473c-8f87-4262e0bdb448",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/door_6b61ce71-1a7a-473c-8f87-4262e0bdc223",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/door_6b61ce71-1a7a-473c-8f87-4262e0bdc24f",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/door_7606d7eb-508f-40ce-a522-9b526ddc7201",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/door_7606d7eb-508f-40ce-a522-9b526ddc728b",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/member_5f1efada-bcd8-41b6-aff4-ad3fb24b7679",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/member_aee7272c-8ef2-4af0-b3f4-1509a4c67b98",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/member_d776d4d4-ad53-498c-9675-a4d357bd81ef",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/member_f26519b1-a697-4f79-9628-ca1443a95258",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/railing_3ab8ee1d-07ad-41b9-8f24-a55884e7e651",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/railing_3ab8ee1d-07ad-41b9-8f24-a55884e7e655",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/railing_81be7c96-ce56-447e-9d93-021422f830c5",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/railing_81be7c96-ce56-447e-9d93-021422f83119",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/slab_9808fd7f-dc48-478e-9217-628e833d410f",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/slab_9808fd7f-dc48-478e-9217-628e833d49bd",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/slab_982f59b0-f2e1-485f-8ce1-c9f6117b7a31",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/slab_982f59b0-f2e1-485f-8ce1-c9f6117b7a99",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/slab_982f59b0-f2e1-485f-8ce1-c9f6117b7b5b",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/slab_982f59b0-f2e1-485f-8ce1-c9f6117b7b78",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/slab_982f59b0-f2e1-485f-8ce1-c9f6117b7ca4",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/slab_982f59b0-f2e1-485f-8ce1-c9f6117b7ef5",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/stair_3ab8ee1d-07ad-41b9-8f24-a55884e7e601",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/stair_81be7c96-ce56-447e-9d93-021422f83127",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/stairflight_06e324b6-962d-4317-b253-85e1df8c71f8",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/stairflight_ca457005-aa0d-4679-92c1-5067d702c9f3",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_2c391822-07f8-4a22-86a8-a1e57412d365",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_2c391822-07f8-4a22-86a8-a1e57412d386",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_2c391822-07f8-4a22-86a8-a1e57412d8c1",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_2c391822-07f8-4a22-86a8-a1e57412dcef",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_2c391822-07f8-4a22-86a8-a1e57412df9e",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_64b7f7d3-8cfc-4277-ba33-8de2e6533a28",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_64b7f7d3-8cfc-4277-ba33-8de2e6533ae9",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_9808fd7f-dc48-478e-9217-628e833d441c",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_9808fd7f-dc48-478e-9217-628e833d44b8",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_9808fd7f-dc48-478e-9217-628e833d46d1",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_9808fd7f-dc48-478e-9217-628e833d46ec",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_9808fd7f-dc48-478e-9217-628e833d471d",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_9808fd7f-dc48-478e-9217-628e833d5239",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_9808fd7f-dc48-478e-9217-628e833d574f",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_9808fd7f-dc48-478e-9217-628e833d7938",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_9808fd7f-dc48-478e-9217-628e833d795d",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_9808fd7f-dc48-478e-9217-628e833d7af9",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_9808fd7f-dc48-478e-9217-628e833d7be7",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_9808fd7f-dc48-478e-9217-628e833d7d12",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_9808fd7f-dc48-478e-9217-628e833d7d42",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_9808fd7f-dc48-478e-9217-628e833d7df1",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/window_6b61ce71-1a7a-473c-8f87-4262e0bdb1c2",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/window_6b61ce71-1a7a-473c-8f87-4262e0bdb2de",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/window_6b61ce71-1a7a-473c-8f87-4262e0bdb57b",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/window_6b61ce71-1a7a-473c-8f87-4262e0bdb6d5",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6512"
+    },
+    {
+        "subelement": "https://example.domain.de/beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f2f4",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f31b",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f37a",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f37b",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/covering_e586c31c-dfb6-463e-aee7-a2dffc9850b2",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/covering_e586c31c-dfb6-463e-aee7-a2dffc985144",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/covering_e586c31c-dfb6-463e-aee7-a2dffc98514e",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/covering_e586c31c-dfb6-463e-aee7-a2dffc985156",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/covering_e586c31c-dfb6-463e-aee7-a2dffc98515e",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/covering_e586c31c-dfb6-463e-aee7-a2dffc985166",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/covering_e586c31c-dfb6-463e-aee7-a2dffc98516e",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/covering_e586c31c-dfb6-463e-aee7-a2dffc985170",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/door_64b7f7d3-8cfc-4277-ba33-8de2e6533926",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/door_64b7f7d3-8cfc-4277-ba33-8de2e6533fec",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/door_6b61ce71-1a7a-473c-8f87-4262e0bdc370",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/door_6b61ce71-1a7a-473c-8f87-4262e0bdc3d4",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/door_982f59b0-f2e1-485f-8ce1-c9f6117b8873",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/door_982f59b0-f2e1-485f-8ce1-c9f6117b9655",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/door_982f59b0-f2e1-485f-8ce1-c9f6117b96c4",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/door_982f59b0-f2e1-485f-8ce1-c9f6117b97df",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/slab_6b61ce71-1a7a-473c-8f87-4262e0bdbd1e",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/slab_6b61ce71-1a7a-473c-8f87-4262e0bdbd56",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/slab_982f59b0-f2e1-485f-8ce1-c9f6117b700f",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/slab_982f59b0-f2e1-485f-8ce1-c9f6117b70a9",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/slab_982f59b0-f2e1-485f-8ce1-c9f6117b7160",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/slab_982f59b0-f2e1-485f-8ce1-c9f6117b720f",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/slab_982f59b0-f2e1-485f-8ce1-c9f6117b7236",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/slab_982f59b0-f2e1-485f-8ce1-c9f6117b72d9",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/slab_982f59b0-f2e1-485f-8ce1-c9f6117b7300",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/slab_982f59b0-f2e1-485f-8ce1-c9f6117b7361",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_27ece05c-f06c-4dd2-9ccd-945e52597b0a",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_27ece05c-f06c-4dd2-9ccd-945e52597fa3",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_64b7f7d3-8cfc-4277-ba33-8de2e65338fa",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_64b7f7d3-8cfc-4277-ba33-8de2e6533e77",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_9808fd7f-dc48-478e-9217-628e833d4938",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_9808fd7f-dc48-478e-9217-628e833d5246",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_9808fd7f-dc48-478e-9217-628e833d5275",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_9808fd7f-dc48-478e-9217-628e833d5330",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_9808fd7f-dc48-478e-9217-628e833d5393",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_9808fd7f-dc48-478e-9217-628e833d548e",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_9808fd7f-dc48-478e-9217-628e833d54e7",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_9808fd7f-dc48-478e-9217-628e833d5512",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_9808fd7f-dc48-478e-9217-628e833d55b5",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_9808fd7f-dc48-478e-9217-628e833d5611",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_9808fd7f-dc48-478e-9217-628e833d5659",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_9808fd7f-dc48-478e-9217-628e833d568d",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_9808fd7f-dc48-478e-9217-628e833d56c9",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/window_6b61ce71-1a7a-473c-8f87-4262e0bdc056",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/window_6b61ce71-1a7a-473c-8f87-4262e0bdc09f",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/window_6b61ce71-1a7a-473c-8f87-4262e0bdc11a",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/window_6b61ce71-1a7a-473c-8f87-4262e0bdc858",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/window_6b61ce71-1a7a-473c-8f87-4262e0bdcaa4",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/window_6b61ce71-1a7a-473c-8f87-4262e0bdcc4c",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/window_6b61ce71-1a7a-473c-8f87-4262e0bdccc1",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/window_6b61ce71-1a7a-473c-8f87-4262e0bdcfa0",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/window_6f010293-ddb7-4fe4-8ffd-c144d84448e3",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/window_6f010293-ddb7-4fe4-8ffd-c144d844491c",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/window_6f010293-ddb7-4fe4-8ffd-c144d8444a9a",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/window_6f010293-ddb7-4fe4-8ffd-c144d8444af9",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/window_6f010293-ddb7-4fe4-8ffd-c144d8444b93",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/window_6f010293-ddb7-4fe4-8ffd-c144d8444cb4",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/window_6f010293-ddb7-4fe4-8ffd-c144d8444cde",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/window_6f010293-ddb7-4fe4-8ffd-c144d8444d36",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/window_6f010293-ddb7-4fe4-8ffd-c144d8444e01",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/window_6f010293-ddb7-4fe4-8ffd-c144d8444fe8",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95d6693"
+    },
+    {
+        "subelement": "https://example.domain.de/footing_2e3c415a-d885-4964-a589-bb0941bdd08b",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95f6ab3"
+    },
+    {
+        "subelement": "https://example.domain.de/footing_2e3c415a-d885-4964-a589-bb0941bdd097",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95f6ab3"
+    },
+    {
+        "subelement": "https://example.domain.de/footing_2e3c415a-d885-4964-a589-bb0941bdd0a3",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95f6ab3"
+    },
+    {
+        "subelement": "https://example.domain.de/footing_2e3c415a-d885-4964-a589-bb0941bdd167",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95f6ab3"
+    },
+    {
+        "subelement": "https://example.domain.de/footing_2e3c415a-d885-4964-a589-bb0941bdd16f",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95f6ab3"
+    },
+    {
+        "subelement": "https://example.domain.de/footing_2e3c415a-d885-4964-a589-bb0941bdd177",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95f6ab3"
+    },
+    {
+        "subelement": "https://example.domain.de/footing_2e3c415a-d885-4964-a589-bb0941bdd17f",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95f6ab3"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_9808fd7f-dc48-478e-9217-628e833d4004",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95f6ab3"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_9808fd7f-dc48-478e-9217-628e833d4065",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95f6ab3"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_9808fd7f-dc48-478e-9217-628e833d40ce",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95f6ab3"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_9808fd7f-dc48-478e-9217-628e833d4200",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95f6ab3"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_9808fd7f-dc48-478e-9217-628e833d4257",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95f6ab3"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_9808fd7f-dc48-478e-9217-628e833d4385",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95f6ab3"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_9808fd7f-dc48-478e-9217-628e833d43b5",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95f6ab3"
+    },
+    {
+        "subelement": "https://example.domain.de/roof_2da40d62-4698-436c-a2c3-95c49bb70eef",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95f770e"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_2da40d62-4698-436c-a2c3-95c49bb70c3c",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95f770e"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_2da40d62-4698-436c-a2c3-95c49bb70ca4",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95f770e"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_2da40d62-4698-436c-a2c3-95c49bb70cfa",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95f770e"
+    },
+    {
+        "subelement": "https://example.domain.de/wall_2da40d62-4698-436c-a2c3-95c49bb70d41",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95f770e"
+    },
+    {
+        "subelement": "https://example.domain.de/window_4ec82fcb-9118-4408-a3ae-37969a37298d",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95f770e"
+    },
+    {
+        "subelement": "https://example.domain.de/window_4ec82fcb-9118-4408-a3ae-37969a372f02",
+        "element": "https://example.domain.de/storey_7b7032cc-b822-417b-9aea-6429f95f770e"
+    }
+]

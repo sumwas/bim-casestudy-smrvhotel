@@ -1,0 +1,27 @@
+PREFIX building: <https://pi.pauwel.be/voc/buildingelement#>
+PREFIX bot: <https://w3id.org/bot#>
+PREFIX props: <http://lbd.arch.rwth-aachen.de/props#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?door ?id
+(STRBEFORE(STR(?level), "-") AS ?levelValue) ?mark ?fireRating (STRBEFORE(STR(?height), "^^") AS ?heightValue) 
+?egressType
+(STRBEFORE(STR(?width), "^^") AS ?widthValue) 
+(STRBEFORE(STR(?area), "^^") AS ?areaValue) 
+(STRBEFORE(STR(?baseElevation), "^^") AS ?baseElevationValue)
+WHERE {
+  ?door a building:Door ;
+        props:batid_attribute_simple ?id ;
+        props:level_property_simple ?level ;
+        props:mark_property_simple ?mark ;
+        props:fireRating_property_simple ?fireRating ;
+        props:overallHeightIfcDoor_attribute_simple ?height ;
+        props:overallWidthIfcDoor_attribute_simple ?width ;
+        props:area_property_simple ?area .
+  OPTIONAL { ?door props:smrvDoorEgressType_property_simple ?egressType }
+
+  ?baseStorey a bot:Storey ;
+              rdfs:label ?level ;
+              props:elevation_property_simple ?baseElevation .
+}

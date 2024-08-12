@@ -1,0 +1,18 @@
+PREFIX bot: <https://w3id.org/bot#>
+PREFIX props: <http://lbd.arch.rwth-aachen.de/props#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX building: <https://pi.pauwel.be/voc/buildingelement#>
+
+SELECT ?stair 
+  (STRBEFORE(STR(?base), "-") AS ?baseValue) 
+  (STRBEFORE(STR(?top), "-") AS ?topValue)
+  ?stairType ?name (STRAFTER(STR(?label), ":Stair:") AS ?label)
+WHERE {
+  ?stair a building:Stair ;
+         rdfs:label ?label ;
+         props:baseLevel_property_simple ?base ;
+         props:topLevel_property_simple ?top ;
+         props:smrvStairType_property_simple  ?stairType ;
+         props:typeName_property_simple ?name .
+}

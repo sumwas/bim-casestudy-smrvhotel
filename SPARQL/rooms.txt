@@ -1,0 +1,20 @@
+PREFIX bot: <https://w3id.org/bot#>
+PREFIX props: <http://lbd.arch.rwth-aachen.de/props#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?space 
+  (STRBEFORE(STR(?level), "-") AS ?levelValue) ?numberAndName ?roomType 
+  (STRBEFORE(STR(?area), "^^") AS ?areaValue) 
+  (STRBEFORE(STR(?smrvCalcOccupantLoad), "^^") AS ?smrvCalcOccupantLoadValue)
+  ?flame ?function
+WHERE {
+  ?space a bot:Space ;
+         props:level_property_simple ?level ;
+         props:numberAndName_property_simple ?numberAndName ;
+         props:roomType_property_simple ?roomType ;
+         props:area_property_simple ?area ;
+         props:smrvCalcOccupantLoad_property_simple ?smrvCalcOccupantLoad ;
+         props:smrvInteriorFinishClassification_property_simple ?flame ;
+         props:smrvFunctionOfSpace_property_simple ?function.
+}
