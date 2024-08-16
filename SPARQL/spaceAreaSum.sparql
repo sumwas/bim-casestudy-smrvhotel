@@ -6,8 +6,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 SELECT (STRBEFORE(STR(?level), "-") AS ?levelValue) (SUM(xsd:decimal(STRBEFORE(STR(?area), "^^"))) AS ?totalArea)
 WHERE {
     ?space a bot:Space ;
-           props:area_property_simple ?area ;
-           props:level_property_simple ?level .
+        props:areaType_property_simple "Building Common Area" ;
+        props:area_property_simple ?area ;
+        props:level_property_simple ?level .
 }
 GROUP BY ?level
 ORDER BY ?level
