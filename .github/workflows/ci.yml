@@ -3,7 +3,7 @@ name: Convert Notebooks to HTML and Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main 
+      - main
 
 jobs:
   convert-and-deploy:
@@ -25,19 +25,7 @@ jobs:
 
       - name: Convert notebooks to HTML
         run: |
-          mkdir -p "Rule Notebooks"
           jupyter nbconvert --to html "Rule Notebooks/*/*/*.ipynb" --output-dir "Rule Notebooks"
-
-      - name: Add HTML files to the repository
-        run: |
-          git config --global user.email "summayah.waseem@gmail.com"
-          git config --global user.name "sumwas"
-          git add "Rule Notebooks"
-          git commit -m "Convert notebooks to HTML and deploy"
-
-      - name: Push changes to GitHub
-        run: |
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/sumwas/BIM-Casestudy.git HEAD:main
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
