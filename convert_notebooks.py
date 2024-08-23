@@ -39,7 +39,7 @@ def create_navigation(notebooks):
     return chapters
 
 def convert_notebooks_to_html(notebooks, chapters):
-    html_exporter = HTMLExporter(template_file='jupyter_templates/custom_template')
+    html_exporter = HTMLExporter(template_file='jupyter_templates/custom_template.tpl')
     for notebook in notebooks:
         with open(notebook) as f:
             nb = nbformat.read(f, as_version=4)
