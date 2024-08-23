@@ -37,12 +37,12 @@ jobs:
 
       - name: Push changes to GitHub
         env:
-          GH_PAT: ${{ secrets.GH_PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git push https://$GH_PAT@github.com/sumwas/BIM-Casestudy.git HEAD:main
+          git push https://x-access-token:$GITHUB_TOKEN@github.com/sumwas/BIM-Casestudy.git HEAD:main
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: docs
+          publish_dir: "Rule Notebooks"
