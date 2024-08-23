@@ -32,7 +32,7 @@ jobs:
         run: |
           git config --global user.email "summayah.waseem@gmail.com"
           git config --global user.name "sumwas"
-          git add docs
+          git add "Rule Notebooks"
           git commit -m "Convert notebooks to HTML and deploy"
 
       - name: Push changes to GitHub
