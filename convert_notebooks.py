@@ -29,6 +29,5 @@ def convert_notebooks_to_html(base_dir, notebooks, template_file):
 
 if __name__ == "__main__":
     base_dir = 'Rule Notebooks'
-    template_dir = "jupyter_templates"
     notebooks = collect_notebooks(base_dir)
-    convert_notebooks_to_html(template_dir, notebooks, 'custom_template.tpl')
+    convert_notebooks_to_html(base_dir, notebooks, 'custom_template.tpl')
