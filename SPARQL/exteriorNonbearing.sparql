@@ -1,0 +1,13 @@
+PREFIX building: <http://example.org/building#>
+PREFIX props: <http://lbd.arch.rwth-aachen.de/props#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?wall ?batid ?fireRating ?fireSeparationDistance
+WHERE {
+    ?wall a building:Wall ;
+          props:loadBearing_property_simple "false"^^xsd:boolean ;
+          props:function_property_simple "Exterior" ;
+          props:fireRating_property_simple ?fireRating ;
+          props:batid_attribute_simple ?batid ;
+          props:smrvExteriorFireSeparationDistance_property_simple ?fireSeparationDistance .
+}
