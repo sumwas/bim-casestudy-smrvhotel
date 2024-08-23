@@ -36,7 +36,10 @@ jobs:
           git commit -m "Convert notebooks to HTML and deploy"
 
       - name: Push changes to GitHub
-        run: git push
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          git push https://$GH_PAT@github.com/sumwas/BIM-Casestudy.git HEAD:main
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
