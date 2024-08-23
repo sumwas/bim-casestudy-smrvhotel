@@ -30,4 +30,4 @@ def convert_notebooks_to_html(base_dir, notebooks, template_file):
 if __name__ == "__main__":
     base_dir = 'Rule Notebooks'
     notebooks = collect_notebooks(base_dir)
-    convert_notebooks_to_html(base_dir, notebooks, 'custom_template')
+    convert_notebooks_to_html(base_dir, notebooks, 'custom_template.tpl')
