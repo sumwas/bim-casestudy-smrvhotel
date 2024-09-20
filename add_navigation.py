@@ -8,7 +8,6 @@ html_dir = "Rule Notebooks"
 def extract_numeric_part(filename):
     parts = filename.split('-')[0]
     try:
-        # Replace '.' with an empty string and convert to float for proper sorting
         return float(parts.replace('.', ''))
     except ValueError:
         return float('inf')  # In case the file doesn't start with a number, send it to the end
@@ -18,7 +17,6 @@ def build_navigation_structure(directory):
     nav_structure = {}
     
     for root, dirs, files in os.walk(directory):
-        # Filter for HTML files only
         html_files = [f for f in files if f.endswith('.html')]
         if html_files:
             # Sort HTML files numerically based on their filenames
@@ -27,7 +25,7 @@ def build_navigation_structure(directory):
             # Create a relative path from the root folder
             relative_path = os.path.relpath(root, html_dir)
             
-            # Create an entry in the navigation structure for this folder
+            # Add an entry in the navigation structure for this folder
             nav_structure[relative_path] = html_files
     
     return nav_structure
@@ -36,9 +34,8 @@ def build_navigation_structure(directory):
 def generate_navigation_html(nav_structure):
     nav_html = '<nav>\n'
     
-    # Iterate over chapters (folders)
+    # Iterate over folders (chapters/sections)
     for folder, files in nav_structure.items():
-        # Generate a dropdown for each chapter/section
         folder_name = folder.split('/')[-1]  # Get the last part of the folder path for display
         nav_html += f'<details>\n<summary>{folder_name}</summary>\n'
         
