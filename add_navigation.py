@@ -4,6 +4,9 @@ from bs4 import BeautifulSoup
 # Directory containing the HTML files
 html_dir = "Rule Notebooks"
 
+# Base URL for absolute links (update this to your website's base URL)
+base_url = "/BIM-Casestudy/Rule%20Notebooks/"
+
 # Function to extract the numerical part of the filename for sorting
 def extract_numeric_part(filename):
     parts = filename.split('-')[0]
@@ -23,7 +26,7 @@ def build_navigation_structure(directory):
             html_files = sorted(html_files, key=extract_numeric_part)
             
             # Create a relative path from the root folder
-            relative_path = os.path.relpath(root, html_dir)
+            relative_path = os.path.relpath(root, html_dir).replace('\\', '/')
             
             # Add an entry in the navigation structure for this folder
             nav_structure[relative_path] = html_files
@@ -41,7 +44,8 @@ def generate_navigation_html(nav_structure):
         
         # List files in the dropdown
         for file in files:
-            file_path = os.path.join(folder, file).replace('\\', '/')
+            # Create absolute URL from the base_url and the folder structure
+            file_path = base_url + os.path.join(folder, file).replace('\\', '/')
             display_name = file.replace('.html', '')
             nav_html += f'<a href="{file_path}">{display_name}</a>\n'
         
