@@ -20,7 +20,7 @@ def build_navigation_structure(directory):
     nav_structure = {}
     
     for root, dirs, files in os.walk(directory):
-        html_files = [f for f in files if f.endswith('.html')]
+        html_files = [f for f in files if f.endswith('.html') and f != 'index.html']  # Exclude index.html
         if html_files:
             # Sort HTML files numerically based on their filenames
             html_files = sorted(html_files, key=extract_numeric_part)
@@ -28,14 +28,18 @@ def build_navigation_structure(directory):
             # Create a relative path from the root folder
             relative_path = os.path.relpath(root, html_dir).replace('\\', '/')
             
-            # Add an entry in the navigation structure for this folder
-            nav_structure[relative_path] = html_files
+            # Add an entry in the navigation structure for this folder, ignore the "." folder
+            if relative_path != ".":
+                nav_structure[relative_path] = html_files
     
     return nav_structure
 
 # Function to generate navigation HTML with dropdowns based on folder structure
 def generate_navigation_html(nav_structure):
     nav_html = '<nav>\n'
+    
+    # Add a Home link at the top of the navigation
+    nav_html += f'<a href="{base_url}index.html">Home</a>\n'
     
     # Iterate over folders (chapters/sections)
     for folder, files in nav_structure.items():
