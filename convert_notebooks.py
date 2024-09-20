@@ -1,33 +1,26 @@
 import os
-import nbformat
-from nbconvert import HTMLExporter
-from nbconvert.preprocessors import ExecutePreprocessor
+import subprocess
 
-def collect_notebooks(base_dir):
-    notebooks = []
-    for root, dirs, files in os.walk(base_dir):
-        for file in files:
-            if file.endswith('.ipynb'):
-                path = os.path.join(root, file)
-                relative_path = os.path.relpath(path, base_dir)
-                notebooks.append({
-                    'url': relative_path.replace(os.path.sep, '/'),
-                    'title': file
-                })
-    return notebooks
+# Define the root folder where your notebooks are stored
+notebooks_root = "Rule Notebooks"
 
-def convert_notebooks_to_html(base_dir, notebooks, template_file):
-    html_exporter = HTMLExporter(template_file=template_file)
-    for notebook in notebooks:
-        nb_path = os.path.join(base_dir, notebook['url'])
-        with open(nb_path, 'r', encoding='utf-8') as f:
-            nb = nbformat.read(f, as_version=4)
-            body, resources = html_exporter.from_notebook_node(nb)
-            html_file = nb_path.replace('.ipynb', '.html')
-            with open(html_file, 'w', encoding='utf-8') as f:
-                f.write(body)
+# Walk through all directories and subdirectories
+for root, dirs, files in os.walk(notebooks_root):
+    for file in files:
+        if file.endswith(".ipynb"):
+            # Full path to the notebook
+            notebook_path = os.path.join(root, file)
+            
+            # Directory where the notebook is located
+            output_dir = root
+            
+            # Run nbconvert with the correct output directory
+            subprocess.run([
+                "jupyter", "nbconvert", 
+                "--to", "html", 
+                notebook_path, 
+                "--output-dir", output_dir
+            ])
 
-if __name__ == "__main__":
-    base_dir = 'Rule Notebooks'
-    notebooks = collect_notebooks(base_dir)
-    convert_notebooks_to_html(base_dir, notebooks, 'custom_template.tpl')
+print("Conversion completed.")
+
