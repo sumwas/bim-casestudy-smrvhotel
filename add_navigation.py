@@ -55,7 +55,7 @@ def generate_navigation_html(nav_structure):
     for chapter, sections in nav_structure.items():
         nav_html += f'<div><strong>{chapter}</strong></div>\n'  # Chapter as a bold header
         
-        # List files directly under the chapter
+        # List sections under the chapter
         for section, files in sections.items():
             nav_html += f'<div style="margin-left: 20px;"><em>{section}</em></div>\n'  # Section as an italic header
             
@@ -74,7 +74,7 @@ def add_navigation():
     # Build the navigation structure
     nav_structure = build_navigation_structure(html_dir)
     
-    # Generate the navigation HTML without dropdowns
+    # Generate the navigation HTML
     nav_html = generate_navigation_html(nav_structure)
     
     # Go through each file in the navigation structure and update the HTML
