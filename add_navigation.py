@@ -44,7 +44,7 @@ def build_navigation_structure(directory):
     
     return nav_structure
 
-# Function to generate navigation HTML without dropdowns for chapters
+# Function to generate navigation HTML with dropdowns based on the new structure
 def generate_navigation_html(nav_structure):
     nav_html = '<nav>\n'
     
@@ -53,18 +53,22 @@ def generate_navigation_html(nav_structure):
     
     # Iterate over chapters and sections
     for chapter, sections in nav_structure.items():
-        nav_html += f'<div><strong>{chapter}</strong></div>\n'  # Chapter as a bold header
+        nav_html += f'<details>\n<summary>{chapter}</summary>\n'
         
-        # List sections under the chapter
+        # Iterate over sections under the chapter
         for section, files in sections.items():
-            nav_html += f'<div style="margin-left: 20px;"><em>{section}</em></div>\n'  # Section as an italic header
+            nav_html += f'  <details>\n  <summary>{section}</summary>\n'
             
-            # List files under the section
+            # List files in the dropdown
             for file in files:
                 # Create absolute URL from the base_url and the folder structure
                 file_path = base_url + os.path.join(chapter, section, file).replace('\\', '/')
                 display_name = file.replace('.html', '')
-                nav_html += f'<div style="margin-left: 40px;"><a href="{file_path}">{display_name}</a></div>\n'
+                nav_html += f'    <a href="{file_path}">{display_name}</a>\n'
+            
+            nav_html += '  </details>\n'  # Close the section dropdown
+        
+        nav_html += '</details>\n'  # Close the chapter dropdown
     
     nav_html += '</nav>\n'
     return nav_html
@@ -74,7 +78,7 @@ def add_navigation():
     # Build the navigation structure
     nav_structure = build_navigation_structure(html_dir)
     
-    # Generate the navigation HTML
+    # Generate the navigation HTML with dropdowns
     nav_html = generate_navigation_html(nav_structure)
     
     # Go through each file in the navigation structure and update the HTML
@@ -94,7 +98,7 @@ def add_navigation():
                     # Insert navigation in the body tag
                     soup.body.insert(0, BeautifulSoup(nav_html, 'html.parser'))
                 
-                # Add CSS styling for the navigation
+                # Add CSS styling for the dropdowns
                 style_tag = soup.new_tag('style')
                 style_tag.string = """
                 nav {
@@ -115,6 +119,11 @@ def add_navigation():
                 }
                 nav a:hover {
                     background-color: #ddd;
+                }
+                details summary {
+                    cursor: pointer;
+                    font-weight: bold;
+                    margin-bottom: 8px;
                 }
                 body {
                     margin-left: 220px; /* Make space for the fixed nav */
