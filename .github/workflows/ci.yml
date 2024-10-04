@@ -23,8 +23,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r "Rule Notebooks/requirements.txt"
 
-      - name: Convert notebooks to HTML
+      - name: Convert notebooks to HTML with hidden code
         run: |
+          # Ensure the custom template file is available
+          cp hide_code.tpl "Rule Notebooks/"
           python convert_notebooks.py
         
       - name: Add navigation to HTML files
