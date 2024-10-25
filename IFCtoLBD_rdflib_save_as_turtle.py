@@ -52,13 +52,13 @@ def process_ifc_file(ifc_folder_path, ifc_file_name):
     # rdflib operations:
     # -------------------
 
-    lbd_folder_path = "LBD files\smartReview"
+    lbd_folder_path = "LBD files"
     
     output_file_path = os.path.join(lbd_folder_path, f"output{ifc_file_name}.ttl")
     g.serialize(destination=output_file_path)
     
 # Specify the folder containing IFC files
-ifc_folder_path = "IFC files\smartReview\\new"
+ifc_folder_path = "IFC files\\new"
 
 # Get a list of all files in the folder
 ifc_files = [f for f in os.listdir(ifc_folder_path) if f.endswith(".ifc")]
